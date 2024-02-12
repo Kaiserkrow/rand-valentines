@@ -93,9 +93,12 @@ body {
   .button-1:focus {
     opacity: 90%;
   }
-  .red:focus:hover {
-    background-color: rgb(214, 60, 60);
-    color: white;
+  .red:focus,
+  red:hover,
+  red:active {
+    background-color: rgb(214, 60, 60) !important;
+    color: white !important;
+  }
   }
   .green {
     background-color: #21c92f;
